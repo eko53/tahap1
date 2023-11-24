@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>B e l a j a r</title>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  
+  <script src="https://unpkg.com/vue@next" defer></script>
+  <script src="app.js" defer></script>
+</head>
+
+<body>
+  <section id="tugas" v-cloak>
+  
+    <h2>{{ nama }}</h2>
+    <p>{{ 'Alhamdulillah sudah di hidupkan selama ' + umur }}</p>
+    <p><input type="text" :value="tanggal_lahir"></p>
+    <div><img src="burungGambar.JPG" alt="Bird Image"></div>
+    <p>{{ kocok }}</p>
+    <input type="text" :value="nama">
+	
+  </section>
+</body>
+
+</html>

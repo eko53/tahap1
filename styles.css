@@ -1,0 +1,81 @@
+/* Pengaturan umum */
+* {
+  box-sizing: border-box;
+  font-family: 'Jost', sans-serif;
+}
+
+/* Body */
+body {
+  margin: 0;
+  background-color: #f5f5f5;
+}
+
+/* Section */
+section {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 3rem auto;
+  border-radius: 14px;
+  padding: 2rem;
+  text-align: center;
+  background-color: #fafafa;
+}
+
+/* Judul */
+h2 {
+  font-size: 1.0rem;
+  border-bottom: 3px solid #90a4ae;
+  color: #333;
+  margin: 0 0 0.91rem 0;
+}
+
+/* Paragraf */
+p {
+  font-size: 0.9rem;
+  font-weight: bold;
+  background-color: #eceff1;
+  padding: 0.8rem;
+  color: #333;
+  border-radius: 14px;
+}
+
+/* Input */
+input {
+  font: inherit;
+  text-align: center;
+  border: 1px solid #cfd8dc;
+  padding: 0.4rem;
+  border-radius: 4px;
+  margin-top: 0.4rem;
+}
+
+input:focus {
+  outline: none;
+  border-color: #78909c;
+}
+
+/* Tombol */
+button {
+  font: inherit;
+  cursor: pointer;
+  border: none;
+  background-color: #78909c;
+  color: white;
+  padding: 0.4rem 1.0rem;
+  border-radius: 4px;
+  margin-top: 0.91rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #546e7a;
+}
+
+/* Gambar di dalam section */
+section img {
+  display: block;
+  margin: 0 auto;
+  max-width: 50%;
+  border-radius: 14px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 4px solid #e0e0e0;
+}
